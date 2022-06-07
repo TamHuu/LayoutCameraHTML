@@ -31,10 +31,12 @@
     font-size: 20px;
     padding: 20px;
     background-color: aqua;
+    width: 100%;
+        height: 50px;
 }
 
 .container-datetime {
-    line-height: 30px;
+    line-height: 10px;
     display: flex;
     justify-content: space-between;
     width: 272px;
@@ -45,7 +47,7 @@
     width: 453px;
     display: flex;
     justify-content: space-between;
-    line-height: 30px;
+    line-height: 10px;
 }
 
 .header-mid {
@@ -63,14 +65,23 @@
     font-size: 20px;
     padding: 60px;
 }
-
+.search button:hover {
+    background-color: aqua;
+    cursor: pointer;
+    color: red;
+}
 .nhap {
     width: 318px;
     height: 50px;
 }
-
+.name-company {
+    color: red;
+}
 /* NAVIGATION */
-#navigation {}
+#navigation {
+    width: 100%;
+    height: auto;
+}
 
 .container-nav {
     line-height: 31px;
@@ -91,12 +102,12 @@
     line-height: 31px;
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     cursor: pointer;
-    opacity: 0.5;
+
     color: red;
-    background-color: blue;
+        background-color: white;
 
 }
 
@@ -132,8 +143,12 @@
 
 .content-mid {
     color: black;
-}
 
+}
+.sale {
+    width: 482px;
+    margin: 0 500px;
+}
 .slider:hover {
     opacity: 0.5;
     cursor: pointer;
@@ -161,13 +176,68 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: aqua;
-    padding: 33px;
+padding: 0 45px;
 }
 
 .banner {
     text-align: center;
     padding: 20px 0;
+}
 
+.banner img {
+    height: 241px;
+    padding: 20px 46px;
+}
 
+.container-product {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+    color: black;
+}
+
+.container-logo {
+    padding: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 38px;
+}
+
+.huychuong {
+    text-align: center;
+}
+
+.xegiaohang {
+    text-align: center;
+}
+
+.credit {
+    text-align: center;
+}
+
+.tuvan {
+    text-align: center;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thongtincty {
+    line-height: 40px;
+}
+
+.thongtinlienhe {
+    line-height: 62px;
+}
+
+.hotrokythuat {
+    line-height: 62px;
 }
