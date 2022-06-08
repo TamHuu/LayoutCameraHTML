@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* WRAPPER */
+#wrapper {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 986px;
+    background-color: white;
+}
+
+/* HEADER */
+#header {
+
+    height: 240px;
+    width: 100%;
+    z-index: 30;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 20px;
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+}
+
+.container-datetime {
+    line-height: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 333px;
+
+}
+
+.info {
+    width: 453px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 10px;
+}
+
+.header-mid {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-company {
+    display: flex;
+}
+
+.search {
+    font-size: 20px;
+    padding: 60px;
+}
+
+.search button:hover {
+    background-color: aqua;
+    cursor: pointer;
+    color: red;
+}
+
+.button {
+    width: 105px;
+    height: 50px;
+    margin-left: 100px
+}
+
+.nhap {
+    width: 318px;
+    height: 50px;
+}
+
+.name-company {
+    color: red;
+}
+
+/* NAVIGATION */
+#navigation {
+    width: 100%;
+    height: auto;
+}
+
+.container-nav {
+    line-height: 31px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: aqua;
+}
+
+.container-nav li a {
+    text-decoration: none;
+}
+
+.container-nav li:hover a {
+    line-height: 31px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+
+    color: red;
+    background-color: white;
+
+}
+
+.subnav {
+    display: none;
+    position: relative;
+}
+
+.light-power a:hover~.subnav {
+    display: block;
+
+    background-color: aquamarine
+}
+
+.light-power {
+    position: absolute;
+    display: block;
+}
+
+/* MAIN */
+#main {
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+}
+
+.slider {
+    padding: 20px;
+    width: 1000px;
+    height: 378px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 249px;
+}
+
+#carouselExampleControls {
+    width: 365px;
+    height: 100%;
+    padding: 20px;
+}
+
+.content-img {
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-mid {
+    color: black;
+
+}
+
+.sale {
+    width: 575px;
+    margin: 0 500px;
+}
+
+.slider:hover {
+
+    cursor: pointer;
+}
+
+.img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container-camera p:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.sale {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+
+}
+
+.container-camera {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 45px;
+}
+
+.banner {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner img {
+    height: 241px;
+    padding: 20px 46px;
+}
+
+.container-product {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+    color: black;
+}
+
+.container-logo {
+    padding: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 38px;
+}
+
+.huychuong {
+    text-align: center;
+}
+
+.xegiaohang {
+    text-align: center;
+}
+
+.credit {
+    text-align: center;
+}
+
+.tuvan {
+    text-align: center;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thongtincty {
+    line-height: 40px;
+    padding: 18 px;
+}
+
+.thongtinlienhe {
+    line-height: 62px;
+}
+
+.hotrokythuat {
+    line-height: 62px;
+}
